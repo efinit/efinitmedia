@@ -1,0 +1,481 @@
+body {
+	margin: 0;
+	
+}
+
+#navbar {
+	width: 100%;
+	height: 85px;
+	background-color: rgba(100,100,100,0);
+	z-index: 10;
+	position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+#navgroup {
+	width: 50%;
+	margin: auto;
+}
+
+.navlink {
+	float: right;
+	margin-left: 55px;
+	margin-top: 30px;
+	font: normal bold 17px / 21px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+    font-stretch: normal;
+    color: black;
+    text-transform: uppercase;
+    padding: 5px 5px;
+}
+
+
+
+.navlink a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.navlink a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.navlink:hover {
+	background-color: #AAAAAA;
+	padding: 5px 5px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.navlink:active {
+	background-color: ;
+	color: #b00000;
+	text-decoration: none;
+}
+
+#logo img {
+	float: left;
+}
+
+#logo span {
+	float: left;
+	font: normal bold 27px / 31px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	color: black;
+	text-transform: uppercase;
+	margin-left: 0.5px;
+	margin-top: 28px;
+}
+
+#menucontainer {
+	display: none;
+	float: right;
+	height: 40px;
+	width: 5%;
+}
+
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: black;
+  border: 0;
+  font-size: 2.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.cross {
+  background: none;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  padding: 13px 15px 0px 15px;
+  color: black;
+  border: 0;
+  font-size: 3em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.herocontainer {
+	width: 100%;
+
+}
+
+.heroimage {
+	background-image: url("../images/large_logo.png"), url("../images/tagline_landing.png"), url("../images/gray_landing_image.png");
+	width: 100%;
+	background-size: 44%, 100%, 100%;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+  	background-position: 0, 0, 75%;
+  	height: 750px;
+}
+
+/* .heroimagedarken {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/landing_image.jpg");
+} */
+
+/* .transbox {
+	margin: 10px;
+	border-radius: 5px;
+	float: right;
+	position: 65%;
+	background-color: rgba(255, 255, 255, 0.6);
+	font: normal bold 59px / 63px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	text-transform: uppercase;
+} */
+
+/* .largelogo {
+	background-image: url("../images/large_logo.png");
+	position: absolute;
+} */
+
+/* .navsquare {
+	width: 10px;
+	height: 10px;
+	border-radius: 2.5px;
+	color: black;
+	float: center;
+} */
+
+.titlebar {
+	width: 100%;
+	height: 200px;
+	margin-top: auto;
+	background-color: black;
+}
+
+.section-title {
+	text-align: center;
+	width: 100%;
+	padding-top: 50px;
+	color: white;
+	font: normal bold 59px / 63px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	text-transform: uppercase;
+}
+
+.section-subtitle {
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 7.5px;
+	color: rgb(209, 215, 218);
+	font: normal bold 20.5px / 24.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	text-transform: uppercase;
+}
+
+#storycontainer {
+	background-size: 100%;
+	/*height: 500px;*/
+	background-image: url("../images/work_image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+.story {
+	padding-left: 40px;
+	padding-top: 50px;
+	color: black;
+	font: normal bold 32.5px / 36.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	width: 50%;
+}
+
+.mystory {
+	width: 40%;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	color: black;
+	font: normal 17.5px / 21.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	line-height: 2;
+}
+
+#solutionscontainer {
+	background-color: rgba(23, 49, 68, 1);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.solution-title {
+	color: white;
+	font: normal bold 32.5px / 36.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+}
+
+.solution-descrip {
+	color: rgb(209, 215, 218);
+	font: normal 17.5px / 21.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	line-height: 2;
+	padding-left: 7.5px;
+	padding-right: 7.5px;
+}
+
+#solutions {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#solutions .icon {
+	vertical-align: top;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#solutions .solution-title {
+	vertical-align: top;
+	padding-top: 15px;
+}
+
+#solutions .solution-descrip {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#solutions img {
+	border-radius: 5px;
+	width: 56px;
+	height: 56px;
+	position: center;
+}
+
+#portfoliocontainer {
+	background-color: rgba(43, 126, 185, 1);
+	height: 514px;
+	width: 100%;
+}
+
+
+
+#contactform {
+	font: normal bold 17.5px / 21.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+}
+
+
+#contactform .note {
+	font: normal bold 11.5px / 15.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+}
+
+.bold {
+	font: normal bold 17.5.5px / 21.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+}
+
+/* hr {
+	width: 50%;
+	float: left;
+} */
+
+input {
+	font: normal bold 11.5px / 15.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	height: 20px;
+	width: 320px;
+	padding: 5px 8px;
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc inset;
+	border-radius: 2px;
+}
+
+textarea {
+	font: normal bold 11.5px / 15.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	padding: 8px;
+	width: 520px;
+	border: 1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc inset;
+	border-radius: 2px;
+}
+
+button {
+	background-color: rgba(43, 126, 185, 1);
+	border: 1px solid rgba(23, 49, 68, 0.65);
+	border-radius: 3px;
+	color: white;
+	font: normal bold 11.5px / 15.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #396715;
+}
+
+button:hover {
+	opacity: .85;
+	cursor: pointer;
+}
+
+button:active {
+	border: 1px solid #20911e;
+}
+
+#addresscontainer {
+	font: normal bold 13.5px / 17.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+	float: right;
+	width: 40%;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 39.5px;
+	padding-bottom: 50px;
+	padding-left: 75px;
+	padding-right: 25px;
+	line-height: 1.5;
+	max-width: 100%;
+}
+
+#address {
+	max-width: 100%;
+}
+
+#numberemail {
+	max-width: 100%;
+	padding-bottom: 25px;
+}
+
+
+
+h2 {
+	margin-top: 0px;
+}
+
+#address {
+	line-height: .5;
+}
+
+.emaillink:link {
+	text-decoration: none;
+	color: black;
+	font: normal bold 15.5px / 19.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.emaillink:visited {
+	text-decoration: none;
+	color: black;
+	font: normal bold 15.5px / 19.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.emaillink:hover {
+	background-color: #AAAAAA;
+	border-radius: 3px;
+	text-decoration: none;
+	color: black;
+	font: normal bold 15.5px / 19.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.emaillink:active {
+	background-color: ;
+	color: #b00000;
+	text-decoration: none;
+	font: normal bold 15.5px / 19.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.phone:link {
+	text-decoration: none;
+	color: black;
+	font: normal bold 15.5px / 19.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.phone:visited {
+	text-decoration: none;
+	color: black;
+	font: normal bold 15.5px / 19.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.phone:hover {
+	background-color: #AAAAAA;
+	border-radius: 3px;
+	text-decoration: none;
+	color: black;
+	font: normal bold 15.5px / 19.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.phone:active {
+	background-color: ;
+	color: #b00000;
+	text-decoration: none;
+	color: black;
+	font: normal bold 15.5px / 19.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+}
+
+.footer {
+	width: 100%;
+	height: 150px;
+	margin-top: auto;
+	background-color: black;
+}
+
+#credits {
+	float: left;
+	padding-bottom: 40px;
+	padding-top: 7.5px;
+	color: rgb(209, 215, 218);
+	font: normal bold 10.5px / 14.5px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+	font-stretch: normal;
+}
+
+/* img, embed, object, video {
+	max-width: 100%;
+} */
+
+@media only screen and (max-width: 319px) {
+	#menucontainer {
+	display: block;
+	}
+	#navgroup {
+		display: none;
+	}
+		#logo span {
+    float: left;
+    font: normal bold 19px / 31px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+    font-stretch: normal;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 0px;
+    margin-top: 28px;
+	}
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    /* For mobile phones: */
+    
+    #menucontainer {
+	display: block;
+	}
+	
+	#navgroup {
+		display: none;
+	}
+	
+	#logo span {
+    float: left;
+    font: normal bold 23px / 31px "Open Sans", Kozuka Gothic Pro, Helvetica, Arial, Verdana, sans-serif;
+    font-stretch: normal;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 0px;
+    margin-top: 28px;
+	}
+}
+
+
